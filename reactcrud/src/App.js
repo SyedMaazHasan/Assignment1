@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+
 import "bootstrap/dist/css/bootstrap.css";
 import joi from "joi-browser";
 import { toast } from "react-toastify";
@@ -74,8 +74,7 @@ class App extends Component {
       }
     }
 
-    // const error = valid.error.details[0].message;
-    // console.log(error);
+
   };
   setValues = e => {
     const tempvalue = e.currentTarget.value;
